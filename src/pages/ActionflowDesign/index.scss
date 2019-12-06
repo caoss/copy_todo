@@ -1,0 +1,53 @@
+/**
+ * @author YM
+ */
+.workflow-page {
+  position: fixed;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background-color: #24243a;
+}
+
+.component-slider {
+  width: 200px;
+  height: 100%;
+  background-color: #1e202f;
+  border: 0 solid #4b546c;
+  border-right-width: 1px;
+}
+
+.attribute-slider {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 15%;
+  min-width: 240px;
+  height: 100%;
+  background-color: #24243a;
+  border: 0 solid #4b546c;
+  border-left-width: 1px;
+
+  .ant-card-head {
+    border-bottom-color: #4b546c;
+  }
+
+  .ant-card-bordered {
+    border-width: 0;
+  }
+
+  .attr-title {
+    line-height: 22px;
+    margin-left: 6px;
+    color: #fff;
+    font-size: 16px;
+  }
+}
+
+.attribute-con {
+  height: 100%;
+  background-color: #24243a;
+}

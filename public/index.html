@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <title>共性软件平台</title>
+  </head>
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root"></div>
+    <script>
+        // var main_host ='http://samon.51vip.biz:40836/';
+        var main_host ='http://192.168.21.79:8090/';
+        // Path to dwr on foreign domain
+        var pathToDwrServlet = "http://192.168.21.79:8090/dwr";
+    </script>
+
+    <script type='text/javascript' src='http://192.168.21.79:8090/dwr/engine.js'></script>
+    <script type='text/javascript' src='http://192.168.21.79:8090/dwr/util.js'></script>
+    <script type='text/javascript' src='http://192.168.21.79:8090/dwr/interface/DwrDemo.js'></script>
+<script>
+    window.onload = function() {
+        dwr.engine.setActiveReverseAjax(true);//开启反向ajax
+        dwr.engine.setNotifyServerOnPageUnload(true, true);//刷新页面后销毁当前scriptsession
+        dwr.engine.setErrorHandler(function() {
+            alert("error");
+        });
+        DwrDemo.onPageLoad("Samon CSP");
+    }
+</script>
+
+  </body>
+</html>

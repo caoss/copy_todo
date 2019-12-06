@@ -1,0 +1,38 @@
+{
+  "Flow": {
+    "name": "流程组件",
+    "icon": "control_type",
+    "subs": [
+      {
+        "type": "Flow",
+        "name": "开始",
+        "nodeClazz": "Start",
+        "icon": "start"
+      },
+      {
+        "type": "Flow",
+        "name": "动作",
+        "nodeClazz": "Job",
+        "icon": "job"
+      },
+      {
+        "type": "Flow",
+        "name": "条件",
+        "nodeClazz": "Condition",
+        "icon": "job"
+      },
+      {
+        "type": "Flow",
+        "name": "协同模组",
+        "nodeClazz": "Job",
+        "icon": "job"
+      },
+      {
+        "type": "Flow",
+        "name": "结束",
+        "nodeClazz": "End",
+        "icon": "end"
+      }
+    ]
+  }
+}

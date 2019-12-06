@@ -1,0 +1,25 @@
+.craft_box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.craft_item{
+    display: flex;
+    flex: 1;
+    box-flex: 1;
+    flex-direction: row;
+    .ant-row.ant-form-item{
+        width: 80%;
+    }
+    .tag_s{
+        line-height:40px;
+    }
+}
+.craft_item.craft_item_act{
+    opacity: 0;
+}
+.bot_btns{
+    float:right;
+    margin-right: 50px;
+}

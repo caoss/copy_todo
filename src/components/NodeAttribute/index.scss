@@ -1,0 +1,32 @@
+/**
+ * @author YM
+ */
+.attr {
+  .h-name {
+    padding: 20px;
+    color: #fff;
+  }
+  .ant-collapse .ant-collapse-item .ant-collapse-header .anticon {
+    left: initial;
+    right: 16px;
+    svg path {
+      stroke: #fff;
+      fill: #fff;
+    }
+  }
+
+  .ant-collapse > .ant-collapse-item {
+    border-color: #383a52;
+    border-width: 0;
+  }
+
+  .ant-collapse-content {
+    background-color: #1e202f;
+    color: #fff;
+    border-color: #383a52;
+  }
+
+  .ant-form-item-label label {
+    color: #fff;
+  }
+}

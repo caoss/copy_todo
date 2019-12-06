@@ -1,0 +1,70 @@
+/**
+ * @author YM
+ */
+.axis-list::-webkit-scrollbar {
+  display: none;
+}
+.axis-list {
+//   width: 310px;
+  width: 100%;
+  overflow-y: auto;
+  .axis_cons{
+      width: 100%;
+  }
+  .board-item {
+    width: 290px;
+    display: flex;
+    float: left;
+    height: 80px;
+    margin-left: 15px;
+    margin-top: 24px;
+    border-radius: 2px;
+    background-color: #1b2d79;
+    border-bottom: 2px solid #30d7c5;
+    box-shadow: 0 8px 20px 0 rgba(28, 34, 64, 0.3);
+    .item-left {
+        display: flex;
+      flex: 1;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .item-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 13px 0;
+      width: 50px;
+      border-left: 1px solid #2e439c;
+    }
+    .del-icon {
+      width: 20px;
+    }
+    .del-txt {
+      line-height: 16px;
+      margin-top: 3px;
+      font-size: 11px;
+      color: #ff48a1;
+    }
+    h4 {
+      line-height: 20px;
+      font-size: 16px;
+      color: #fff;
+    }
+    .tag {
+      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 15px;
+      line-height: 15px;
+      padding: 0 6px;
+      background-color: #30d7c5;
+      font-size: 10px;
+      color: #fff;
+      border-radius: 2px;
+    }
+  }
+}

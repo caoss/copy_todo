@@ -1,0 +1,19 @@
+{
+    "Flow": {
+        "name": "流程组件",
+        "icon": "control_type",
+        "subs": [{
+                "type": "Flow",
+                "name": "工位",
+                "nodeClazz": "Station",
+                "icon": "start"
+            },
+            {
+                "type": "Flow",
+                "name": "协同",
+                "nodeClazz": "Synergy",
+                "icon": "job"
+            }
+        ]
+    }
+}

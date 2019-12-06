@@ -1,0 +1,42 @@
+{
+  "PLC": {
+    "name": "控制器",
+    "icon": "control_type",
+    "subs": [
+      {
+        "type": "PLC",
+        "name": "PLC控制",
+        "nodeClazz": "Control",
+        "icon": "control",
+        "description": "PLC控制"
+      }
+    ]
+  },
+  "Others": {
+    "name": "硬件",
+    "icon": "others_type",
+    "subs": [
+      {
+        "type": "Others",
+        "name": "驱动器",
+        "nodeClazz": "Driver",
+        "icon": "driver",
+        "description": "驱动器"
+      },
+      {
+        "type": "Others",
+        "name": "电机",
+        "nodeClazz": "Motor",
+        "icon": "motor",
+        "description": "电机"
+      },
+      {
+        "type": "Others",
+        "name": "气缸",
+        "nodeClazz": "Cylinder",
+        "icon": "cylinder",
+        "description": "气缸"
+      }
+    ]
+  }
+}

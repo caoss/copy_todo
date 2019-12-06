@@ -1,0 +1,29 @@
+/**
+ * @author YM
+ */
+.io {
+  height: 100%;
+  .io-content {
+    width: 100%;
+  }
+  .ant-tabs-card > .ant-tabs-content {
+    flex: 1;
+    height: 120px;
+    margin-top: -16px;
+  }
+  .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    border: 1px solid #1291d8;
+    padding: 16px;
+  }
+  .ant-tabs-card > .ant-tabs-bar {
+    border-color: #fff;
+  }
+  .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent;
+    background: transparent;
+  }
+  .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-color: #fff;
+    background: #fff;
+  }
+}

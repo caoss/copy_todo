@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <title></title>
+    <link href="/static/css/main.d879b428.css" rel="stylesheet">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+        var main_host = "../../",
+            pathToDwrServlet = "../../dwr"
+    </script>
+    <script type="text/javascript" src="../../dwr/engine.js"></script>
+    <script type="text/javascript" src="../../dwr/util.js"></script>
+    <script type="text/javascript" src="../../dwr/interface/DwrDemo.js"></script>
+    <script>
+        window.onload = function () {
+            dwr.engine.setActiveReverseAjax(!0), dwr.engine.setNotifyServerOnPageUnload(!0, !0), dwr.engine
+                .setErrorHandler(function () {
+                    alert("error")
+                }), DwrDemo.onPageLoad("Samon CSP")
+        }
+    </script>
+    <script type="text/javascript" src="/static/js/main.53648939.js"></script>
+</body>
+
+</html>

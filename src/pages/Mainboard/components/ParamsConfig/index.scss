@@ -1,0 +1,20 @@
+/**
+ * @author YM
+ */
+.params-config {
+  display: flex;
+  height: 100%;
+  background-color: #0b1a47;
+  .left {
+    width: 210px;
+    background-color: #0f2155;
+    .left-item {
+      padding: 12px 24px;
+      color: #fff;
+    }
+  }
+  .right {
+    flex: 1;
+    overflow-y: auto;
+  }
+}

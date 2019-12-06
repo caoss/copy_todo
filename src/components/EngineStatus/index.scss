@@ -1,0 +1,75 @@
+.header-con {
+    position: fixed;
+    width: 100%;
+  height: 64px;
+  top: 0;
+  padding: 0;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    p{
+        b{
+            font-weight: bold;
+        }
+    }
+  .trigger {
+    font-size: 20px;
+    height: 64px;
+    cursor: pointer;
+    transition: all 0.3s, padding 0s;
+    padding: 22px 24px;
+  }
+
+  .header-span {
+    display: inline-block;
+  }
+
+  .space {
+    padding: 0 12px;
+  }
+
+  .header-right {
+    float: right;
+    height: 100%;
+  }
+
+  .name {
+    display: inline-block;
+    // line-height: 32px;
+    // height: 32px;
+    padding: 0 8px;
+    font-size: 16px;
+    color: #c4c3d5;
+    // background-color: #5d5c87;
+  }
+
+  .avatar {
+    img {
+      width: 64px;
+      height: 64px;
+      border-radius: 25px;
+    }
+  }
+  .btn_l{
+      margin:0 10px;
+  }
+}
+
+.ant-card-body {
+    padding:24px 10px;
+}
+
+.message{
+    position: fixed;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    top: 166px;
+    bottom: 0;
+    padding: 10px;
+    padding-top: 10px;
+    overflow: auto;
+    border:1px solid #e8e8e8;
+    border-top: none;
+    p{
+        margin-bottom: 10px;
+    }
+}

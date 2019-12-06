@@ -1,0 +1,204 @@
+/**
+ * @author YM
+ */
+.mainboard {    
+    height: 100%;
+    background-image: url(../../assets/images/work-bg.png);
+    background-position: center center;
+    background-size: 100% auto;
+    .ant-tabs .ant-tabs-top-content.ant-tabs-content-animated {
+        flex: 1;
+    }
+    .ant-tabs-bar {
+        border: 0;
+    }
+
+    .ant-tabs-nav .ant-tabs-tab {
+        color: #fff;
+    }
+    .mainboard-bg {
+        background-image: url(../../assets/images/work-grid.png);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    nav {
+        height: 56px;
+        line-height: 56px;
+        background-color: #061134;
+        h3 {
+            color: #32b5ee;
+        }
+    }
+
+    .mainBoard_bot{
+        flex:1;
+        box-flex: 1;
+    }
+    .create-con {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+  .add-con {
+    display: flex;
+    width: 240px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #32b5ee;
+    border-radius: 8px;
+    background-color: rgba(15, 33, 85, 0.57);
+    img {
+      width: 62px;
+    }
+    span {
+      display: inline-block;
+      line-height: 30px;
+      margin-top: 27px;
+      font-size: 22px;
+      color: #fff;
+    }
+  }
+
+  .board-manage {
+      height: 100%;
+    display: flex;
+    flex: 1;
+    .btn-con {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .btn {
+      display: inline-block;
+      height: 34px;
+      font-size: 13px;
+      color: #bee8f5;
+      border: 1px solid #1291d8;
+      border-radius: 2px;
+      background-color: rgba(18, 145, 216, 0.2);
+      img {
+        width: 18px;
+        height: 18px;
+        margin-right: 8px;
+      }
+      span {
+        display: flex;
+        line-height: 31px;
+        height: 31px;
+        padding: 0 12px;
+        align-items: center;
+        border-bottom: 1px solid #1291d8;
+      }
+    }
+
+    .board-left {
+      box-sizing: content-box;
+      width: 210px;
+      padding: 0 24px;
+      height: 100%;
+      background-color: #061134;
+      .board-item {
+        display: flex;
+        height: 64px;
+        border-radius: 2px;
+        // background-color: #0f2155;
+        border-bottom: 2px solid #1260d8;
+        box-shadow: 0 8px 20px 0 rgba(28, 34, 64, 0.3);
+        .item-left {
+          flex: 1;
+          display: flex;
+          position: relative;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .item-right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 13px 0;
+          width: 50px;
+          border-left: 1px solid #2e439c;
+        }
+        .del-icon {
+          width: 20px;
+        }
+        .del-txt {
+          line-height: 16px;
+          margin-top: 3px;
+          font-size: 11px;
+          color: #ff48a1;
+        }
+        h4 {
+          line-height: 20px;
+          font-size: 16px;
+          color: #fff;
+        }
+        .tag {
+          display: inline-block;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 15px;
+          line-height: 15px;
+          padding: 0 6px;
+          background-color: #1260d8;
+          font-size: 10px;
+          color: #fff;
+          border-radius: 2px;
+        }
+      }
+    }
+
+    .board-right {
+      flex: 1;
+      height: 100%;
+      padding: 24px;
+      border-radius: 4px;
+
+      .io {
+        padding: 24px;
+        padding-top: 0;
+        .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+          background-color: #061134;
+          border: none;
+        }
+
+        .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+          border: 1px solid #1291d8;
+          border-bottom-width: 0;
+        }
+      }
+    }
+  }
+
+  .config-btn-pos {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    z-index: 9999;
+  }
+
+  .config-modal {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 666;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.eidt-txt{
+    line-height: 16px;
+    margin-top: 3px;
+    font-size: 11px;
+    color: #fff;
+}

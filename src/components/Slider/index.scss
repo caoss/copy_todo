@@ -1,0 +1,38 @@
+.my-slider {
+  width: 100%;
+  height: 100%;
+
+  .ant-collapse .ant-collapse-item .ant-collapse-header .anticon {
+    left: initial;
+    right: 16px;
+    svg path {
+      stroke: #fff;
+      fill: #fff;
+    }
+  }
+
+  .ant-collapse > .ant-collapse-item {
+    border-color: #383a52;
+    border-width: 0;
+  }
+
+  .ant-collapse-content {
+    background-color: #1e202f;
+    color: #fff;
+    border-color: #383a52;
+  }
+
+  .item-con,
+  .h-con {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    color: #fff;
+  }
+
+  .item-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+}
