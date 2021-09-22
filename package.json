@@ -69,7 +69,7 @@
     "file-saver": "^2.0.0",
     "history": "^4.7.2",
     "image-webpack-loader": "^4.6.0",
-    "jointjs": "^2.2.1",
+    "jointjs": "^3.4.2",
     "mobx": "^5.5.0",
     "mobx-react": "^5.2.8",
     "nprogress": "^0.2.0",
